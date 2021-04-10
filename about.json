@@ -1,6 +1,6 @@
 {
   "name": "Auto abbrify words",
-  "about_url": "https://github.com/metabrainz/discourse-abbrify-words",
+  "about_url": "https://meta.discourse.org/t/add-abbr-tags-to-words-in-posts/88394",
   "license_url": "https://github.com/metabrainz/discourse-abbrify-words/blob/master/LICENSE",
   "component": true
 }
