@@ -4,3 +4,11 @@ abbreviations:
   description:
     en: "List of abbreviations to add `abbr` tags to in posts, as well as their meanings."
     da: "Liste over forkortelser der skal tilføjes `abbr` tags til i indlæg, samt deres betydninger."
+excluded_tags:
+  type: list
+  list_type: compact
+  default: 'code|pre'
+excluded_classes:
+  type: list
+  list_type: compact
+  default: 'onebox'
