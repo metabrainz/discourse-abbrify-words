@@ -27,7 +27,7 @@
   let keys = Object.keys(words).sort((x,y) => y.length - x.length);
 
   let escapedWords = "((" + keys.map(w => escapeRegExp(w)).join(")|(") + "))";
-  let regex = new RegExp("(\\W|^)" + escapedWords + "(\\W|$)", "ig");
+  let regex = new RegExp("([^\\p{L}0-9_]|^)" + escapedWords + "([^\\p{Letter}0-9_]|$)", "igu");
 
   let createAbbr = function(text) {
       let lower = text.toLowerCase();
